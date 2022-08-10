@@ -6,7 +6,7 @@ var flavorConfigProvider = StateProvider(
   (ref) => FlavorConfig(appTitle: "Flavor Tutorial"),
 );
 
-void main() {
+void mainCommon() {
   runApp(
     ProviderScope(child: MyApp()),
   );
